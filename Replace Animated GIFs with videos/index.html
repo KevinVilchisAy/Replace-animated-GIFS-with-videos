@@ -1,0 +1,37 @@
+<!--Go to this website to find a GIF https://giphy.com/-->
+<!--Go to this website to convert GIF to MP4 https://ezgif.com/gif-to-mp4-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Speed Essentials</title>
+</head>
+
+<body>
+    <!-- Replace Animated GIFs with video -->
+    </body>
+    <h1> Replace Animated GIFs with videos. </h1>
+    <p> In this section we are replacing an animated GIF with a video to reduce memory space. </p>
+    <p> Here you can see two link's from The Legend of Zelda Ocarina Of Time scared due to looking at you</p>
+    <img src="myGif.gif" class="myGif">
+    <video autoplay loop muted playsinline class="myVideo">
+        <source src="myVideo.mp4" type="video/mp4">    
+    </video>    
+  
+    
+    <!-- Check Amount of Memory -->
+    <h1> Check Amount of Memory</h1>
+    <p>In this section we are importing any media file, then displays the amount of memory, and finally indicates a metric.
+    </p>
+    <input type="file" id="myFile" onchange="getFileSize()">
+    <p id="memory"></p>
+    <p id="message"></p>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
